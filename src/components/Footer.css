@@ -1,0 +1,21 @@
+footer {
+    background: #f4f4f4;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .socials a {
+    margin: 0 10px;
+    color: #333;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+footer .socials a:hover {
+    color: #0073e6;
+}
+
+footer p {
+    margin-top: 10px;
+    color: #666;
+}
