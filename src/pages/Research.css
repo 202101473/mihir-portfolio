@@ -1,11 +1,32 @@
 .research {
-    padding: 60px 0;
-    text-align: center;
+    padding: 60px 0px;
+    background: #002737;
+}
+
+.resseparator{
+    background: #CAF0F8;
+    height: 3px;
+    margin-top: 80px;
+    margin-bottom: 100px;
 }
 
 .research h2 {
-    font-size: 32px;
-    margin-bottom: 40px;
+    font-size: 72px;
+    margin-bottom: 20px;
+    text-align: left;
+    color: #fff
+}
+
+.research h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: left;
+    color: #fff
+}
+
+.researchbox{
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .research-list {

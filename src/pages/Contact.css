@@ -1,12 +1,33 @@
 .contact {
-    padding: 60px 0;
-    background: #fafafa;
-    text-align: center;
+    padding: 60px 0px;
+    background: #002737;
+    height: 100vh;
 }
 
 .contact h2 {
-    font-size: 32px;
-    margin-bottom: 40px;
+    font-size: 72px;
+    margin-bottom: 20px;
+    text-align: left;
+    color: #fff
+}
+
+.conseparator{
+    background: #CAF0F8;
+    height: 3px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.contactbox{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.contact h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: left;
+    color: #fff
 }
 
 form {

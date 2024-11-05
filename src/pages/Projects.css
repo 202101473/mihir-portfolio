@@ -1,22 +1,29 @@
 .projects {
-    padding: 60px 0;
-    background: #fafafa;
-    text-align: center;
+    padding: 60px 0px;
+    background: #002737;
+}
+
+.prseparator{
+    background: #CAF0F8;
+    height: 3px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.projectbox{
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .projects h2 {
-    font-size: 32px;
-    margin-bottom: 40px;
-}
-
-.project-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    font-size: 72px;
+    margin-bottom: 20px;
+    text-align: left;
+    color: #fff
 }
 
 .project {
-    background: #fff;
+    background: #002737;
     width: 300px;
     padding: 20px;
     margin: 20px;
@@ -25,32 +32,13 @@
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.project h3 {
-    font-size: 24px;
-    margin-bottom: 10px;
+.projects h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: left;
+    color: #fff
 }
 
-.project p {
-    font-size: 16px;
-    color: #666;
-    margin-bottom: 15px;
-}
-
-.project a {
-    text-decoration: none;
-    color: #0073e6;
-    font-weight: bold;
-}
-
-.project:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 4px 16px rgba(0,0,0,0.2);
-}
-
-/* Responsive Projects */
-@media (max-width: 768px) {
-    .project-list {
-        flex-direction: column;
-        align-items: center;
-    }
+.atag:hover{
+    color: #00A4B4;
 }

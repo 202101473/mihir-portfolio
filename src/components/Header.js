@@ -37,6 +37,7 @@ const Header = () => {
                     {isMobile ? <FaTimes /> : <FaBars />}
                 </div>
             </div>
+            <hr className='separator'/>
         </header>
     );
 };

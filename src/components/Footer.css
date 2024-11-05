@@ -1,21 +1,30 @@
 footer {
-    background: #f4f4f4;
+    background: #002737;
     padding: 20px 0;
     text-align: center;
+    position: relative;
+    left: 0px;
+    right: 0px;
+}
+
+.fseparator{
+    background: #CAF0F8;
+    height: 3px;
+    margin-bottom: 20px;
 }
 
 footer .socials a {
     margin: 0 10px;
-    color: #333;
+    color: #fff;
     font-size: 24px;
     transition: color 0.3s;
 }
 
 footer .socials a:hover {
-    color: #0073e6;
+    color: #00A4B4;
 }
 
 footer p {
     margin-top: 10px;
-    color: #666;
+    color: #fff;
 }

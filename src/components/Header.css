@@ -1,10 +1,18 @@
 .header {
-    background: #f4f4f4;
+    background: #002737;
     padding: 20px 0;
+    padding-bottom: 0px;
     position: sticky;
     top: 0;
     z-index: 1000;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.separator{
+    background: #CAF0F8;
+    height: 3px;
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 5%;
 }
 
 .container {
@@ -13,12 +21,12 @@
     align-items: center;
     width: 90%;
     max-width: 1200px;
-    margin: auto;
 }
 
 .logo {
     font-size: 24px;
     font-weight: bold;
+    color: #FFFFFF;
 }
 
 .nav ul {
@@ -32,14 +40,14 @@
 
 .nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: #FFFFFF;
     padding: 5px 10px;
     transition: background 0.3s, color 0.3s;
 }
 
 .nav ul li a:hover {
-    background: #333;
-    color: #fff;
+    background: #CAF0F8;
+    color: #000000;
     border-radius: 4px;
 }
 
