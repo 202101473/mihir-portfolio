@@ -51,11 +51,11 @@ const Blocks = () => {
     }, []);
 
     const blocks = [
-        { title: 'Home', path: '/' },
-        { title: 'Resume', path: '/resume' },
-        { title: 'Projects', path: '/projects' },
-        { title: 'Research', path: '/research' },
-        { title: 'Contact', path: '/contact' },
+        { title: 'Home', path: '/mihir-portfolio/' },
+        { title: 'Resume', path: '/mihir-portfolio/resume' },
+        { title: 'Projects', path: '/mihir-portfolio/projects' },
+        { title: 'Research', path: '/mihir-portfolio/research' },
+        { title: 'Contact', path: '/mihir-portfolio/contact' },
     ];
 
     function MouseOver(event) {
