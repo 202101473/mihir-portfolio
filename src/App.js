@@ -26,11 +26,11 @@ function App() {
         <Router>
             <Header />
             <Routes>
-                <Route path="mihir-portfolio/" element={<Home />} />
-                <Route path="mihir-portfolio/resume" element={<Resume />} />
-                <Route path="mihir-portfolio/projects" element={<Projects />} />
-                <Route path="mihir-portfolio/research" element={<Research />} />
-                <Route path="mihir-portfolio/contact" element={<Contact />} />
+                <Route path="https://202101473.github.io/mihir-portfolio/" element={<Home />} />
+                <Route path="https://202101473.github.io/mihir-portfolio/resume" element={<Resume />} />
+                <Route path="https://202101473.github.io/mihir-portfolio/projects" element={<Projects />} />
+                <Route path="https://202101473.github.io/mihir-portfolio/research" element={<Research />} />
+                <Route path="https://202101473.github.io/mihir-portfolio/contact" element={<Contact />} />
             </Routes>
             <Footer />
         </Router>
