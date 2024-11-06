@@ -26,11 +26,11 @@ function App() {
         <Router>
             <Header />
             <Routes>
-                <Route path="/mihir-portfolio/" exact element={<Home />} />
-                <Route path="/mihir-portfolio/resume" element={<Resume />} />
-                <Route path="/mihir-portfolio/projects" element={<Projects />} />
-                <Route path="/mihir-portfolio/research" element={<Research />} />
-                <Route path="/mihir-portfolio/contact" element={<Contact />} />
+                <Route path="/" exact element={<Home />} />
+                <Route path="/resume" element={<Resume />} />
+                <Route path="/projects" element={<Projects />} />
+                <Route path="/research" element={<Research />} />
+                <Route path="/contact" element={<Contact />} />
             </Routes>
             <Footer />
         </Router>

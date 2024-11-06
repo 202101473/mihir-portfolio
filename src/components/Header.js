@@ -17,19 +17,19 @@ const Header = () => {
                 <nav className={isMobile ? 'nav-mobile' : 'nav'}>
                     <ul>
                         <li>
-                            <Link to="/mihir-portfolio/" onClick={() => setIsMobile(false)}>Home</Link>
+                            <Link to="/" onClick={() => setIsMobile(false)}>Home</Link>
                         </li>
                         <li>
-                            <Link to="/mihir-portfolio/resume" onClick={() => setIsMobile(false)}>Resume</Link>
+                            <Link to="/resume" onClick={() => setIsMobile(false)}>Resume</Link>
                         </li>
                         <li>
-                            <Link to="/mihir-portfolio/projects" onClick={() => setIsMobile(false)}>Projects</Link>
+                            <Link to="/projects" onClick={() => setIsMobile(false)}>Projects</Link>
                         </li>
                         <li>
-                            <Link to="/mihir-portfolio/research" onClick={() => setIsMobile(false)}>Research</Link>
+                            <Link to="/research" onClick={() => setIsMobile(false)}>Research</Link>
                         </li>
                         <li>
-                            <Link to="/mihir-portfolio/contact" onClick={() => setIsMobile(false)}>Contact</Link>
+                            <Link to="/contact" onClick={() => setIsMobile(false)}>Contact</Link>
                         </li>
                     </ul>
                 </nav>
