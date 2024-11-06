@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -26,7 +26,7 @@ function App() {
         <Router>
             <Header />
             <Routes>
-                <Route path="/mihir-portfolio/" element={<Home />} />
+                <Route path="/mihir-portfolio/" exact element={<Home />} />
                 <Route path="/mihir-portfolio/resume" element={<Resume />} />
                 <Route path="/mihir-portfolio/projects" element={<Projects />} />
                 <Route path="/mihir-portfolio/research" element={<Research />} />
