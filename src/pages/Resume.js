@@ -23,7 +23,7 @@ const Resume = () => {
                 <ul style={{color:'white',font:16}}>
                     <li>S. Doshi, M. Gohel, and M. K. Gupta, “A bird-eye view on dna storage simulators,” arXiv preprint arXiv:2404.04877,
                     2024.<a href='https://arxiv.org/abs/2404.04877' style={{color:'#00A4B4'}} target="_blank" rel="noopener noreferrer"> <u>Link</u></a></li>
-                    <li>M. Gohel, S. Doshi and M. K. Gupta, ”JPEG-DNA Simulations Standards,” preprint.<a href='https://arxiv.org/abs/2404.04877' style={{color:'#00A4B4'}} target="_blank" rel="noopener noreferrer"> <u>Link</u></a></li>
+                    <li>M. Gohel, S. Doshi and M. K. Gupta, ”JPEG-DNA Simulations Standards,” preprint.<a style={{color:'#00A4B4'}} target="_blank" rel="noopener noreferrer"> <u>Link</u></a></li>
                 </ul>
                 <hr className='reseparator'></hr>
                 <u style={{color:'white'}}><h3>Projects</h3></u>

@@ -16,7 +16,7 @@ const Research = () => {
                     <li> The paper provides a comprehensive comparison of the simulators, highlighting their strengths, weaknesses, and potential applications in DNA data storage research.</li>
                 </ul>
                 <hr className='prseparator'></hr>
-                <u style={{color:'white'}}><h3><a href='https://arxiv.org/abs/2404.04877' class='atag' target="_blank" rel="noopener noreferrer">JPEG-DNA Simulation Standards</a></h3></u>
+                <u style={{color:'white'}}><h3><a class='atag' target="_blank" rel="noopener noreferrer">JPEG-DNA Simulation Standards</a></h3></u>
                 <ul style={{color:'white',fontSize:16}}>
                     <li>"JPEG-DNA Simulation Standards," proposes a model for standardization in DNA storage simulators designed specifically for JPEG image storage.</li>
                     <li> The primary objective was to develop a JPEG-DNA codec capable of preserving image quality through the entire DNA storage pipeline, with minimal errors upon retrieval.</li>
